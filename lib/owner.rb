@@ -69,6 +69,14 @@ class Owner
           animal.each do |pet|
             fish += 1
           end
+        elsif species == :cats
+          animal.each do |pet|
+            cats += 1
+          end
+        elsif species == :dogs
+          animal.each do |pet|
+            dogs += 1
+          end
           binding.pry
         end
       end
