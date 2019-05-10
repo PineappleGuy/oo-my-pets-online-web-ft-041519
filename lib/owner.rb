@@ -60,4 +60,13 @@ class Owner
       end
     end
 
+    def list_pets
+      cats = 0
+      dogs = 0
+      fish = 0
+      @pets.each do |species, animal|
+        binding.pry
+      end
+    end
+
 end
