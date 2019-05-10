@@ -51,8 +51,8 @@ class Owner
     end
 
     def sell_pets
-      @pets.each do |type|
-        type.clear
+      @pets.each do |type, array|
+        array.clear
       end
     end
 
