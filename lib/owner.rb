@@ -77,7 +77,6 @@ class Owner
           animal.each do |pet|
             cats += 1
           end
-          binding.pry
         end
       end
     end
