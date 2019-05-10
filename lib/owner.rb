@@ -64,8 +64,11 @@ class Owner
       cats = 0
       dogs = 0
       fish = 0
-      @pets.each do |species|
-        species.each do |animal, ash|
+      @pets.each do |species, animal|
+        if species == :fishes
+          animal.each do |pet|
+            fish += 1
+          end
           binding.pry
         end
       end
