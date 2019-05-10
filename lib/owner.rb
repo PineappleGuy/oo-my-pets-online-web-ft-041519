@@ -54,7 +54,7 @@ class Owner
       @pets.each do |type|
         binding.pry
         type.each do |array|
-binding.pry
+          #binding.pry
         end
       end
     end
