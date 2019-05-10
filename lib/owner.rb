@@ -65,7 +65,9 @@ class Owner
       dogs = 0
       fish = 0
       @pets.each do |species|
-        binding.pry
+        species.each do |animal|
+          binding.pry
+        end
       end
     end
 
